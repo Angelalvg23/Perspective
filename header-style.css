@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #F4F4F4;
+}
+
+.topnav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 5px 10px lightgray;
+    font-family: 'Borel', cursive;
+    color: #6C6B6B;
+}
+
+.logo {
+    cursor: default;
+    font-family: 'Borel', cursive;
+    margin-left: 20px;
+    font-size: 28px;
+    height: 40px;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0 10px 0 0;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+}
+
+.menu li a {
+    font-size: 16px;
+    padding: 20px 15px 15px 15px;
+    color: #3A3A3A;
+    display: block;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.menu li a:hover {
+    transform: translateY(-5px);
+}
